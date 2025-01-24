@@ -44,8 +44,8 @@ def test_linkedin_login(username, password):
         driver.quit()
 
 # Test cases
-valid_username = "MAIL"
-valid_password = "PASS"
+valid_username = "MAIL"#ENTER YOUR MAIL
+valid_password = "PASS"#ENTER PASSWORD
 
 # Test valid login
 test_linkedin_login(valid_username, valid_password)
